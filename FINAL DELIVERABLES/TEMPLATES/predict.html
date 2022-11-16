@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Predictor - Predict</title>
+    <link rel="icon" href="static/images/money.png" type="image/x-icon">
+
+     <!-- Google Font -->
+     <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+ 
+     <!-- Css Styles -->
+     <link rel="stylesheet" href="static/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="static/css/STYLES.css" type="text/css">
+
+</head>
+
+<body>
+        <div class="container">
+        <div class="row">
+        <div class="col-lg-6" style="align-items:center">
+        <br><br><br>
+        <h2>LOAN PREDICTOR FORM</h2>
+        <p>Fill the form to predict</p>
+        <table>
+                <form action="/result" method="POST" enctype="'multipart/form-data">
+                <tr>
+                        <td>Are You a Lender / Loan Applicant</td>
+                        <td class="td1"><input id="lend" name="lend" type="radio" value=1 required>&nbsp;Lender&ensp;&ensp;<input id="lend" name="lend" type="radio" value=0>&nbsp;Loan Applicant</td>
+                </tr>
+                <tr>
+                        <td>Name (in Caps)</td>
+                        <td><input name='name' type="text" required=""></td>
+                </tr>
+                <tr>
+                        <td>Gender (Male/Female)</td>
+                        <td class="td1"><input id="gender" name="gender" type="radio" value=1 required>&nbsp;Male&ensp;&ensp;<input id="gender" name="gender" type="radio" value=0>&nbsp;Female</td>
+                </tr>
+                <tr>
+                        <td>Married(Yes/No)</td>
+                        <td class="td1"><input id="married" name="married" type="radio" value=1 required>&nbsp;Yes&ensp;&ensp;<input id="married" name="married" type="radio" value=0>&nbsp;No</td>
+                </tr>
+                <tr>
+                        <td>Dependents (Enter a number)</td>
+                        <td><input name='dep' type="number" min="0" step='1' placeholder="" required=""></td>
+                </tr>
+                <tr>
+                        <td>Education</td>
+                        <td class="td1"><input id='edu' name='edu' type="radio" value=1 required>&nbsp;Non-Graduate&ensp;&ensp;<input id="edu" name="edu" type="radio" value=0>&nbsp;Graduate</td>
+                </tr>
+                <tr>
+                        <td>Self Employed (Yes/No)</td>
+                        <td class="td1"><input id="se" name="se" type="radio" value=1 required>&nbsp;Yes&ensp;&ensp;<input id="se" name="se" type="radio" value=0>&nbsp;No</td>
+                </tr>
+                <tr>
+                        <td>Applicant Income (Enter a number without commas)</td>
+                        <td><input id='AI' name='ai' type="number" min='0' required=""></td>
+                </tr>
+                <tr>
+                        <td>Co-Applicant Income (Enter a number without commas)</td>
+                        <td><input id='CAI' name='cai' type="number" min='0' required=""></td>
+                </tr>
+                <tr>
+                        <td>Loan Amount (Enter a number without commas)</td>
+                        <td><input id='la' name='la' type="number" min='0' required=""></td>
+                </tr>
+                <tr>
+                        <td>Loan Amount Term  (Enter a number in days)</td>
+                        <td><input id='lat' name='lat' type="number" min='0' step="1" required=""></td>
+                </tr>
+                <tr>
+                        <td>Credit History (Yes/No)</td>
+                        <td class="td1"><input id="ch" name="ch" type="radio" value=1 required>&nbsp;Yes&ensp;&ensp;<input id="ch" name="ch" type="radio" value=0>&nbsp;No</td>
+                </tr>
+                <tr>
+                        <td>Property Area</td>
+                        <td class="td1"><input id="pa" name="pa" type="radio" value=2 required>&nbsp;Urban&ensp;&ensp;<input id="pa" name="pa" type="radio" value=0>&nbsp;Rural&ensp;&ensp;<input id="pa" name="pa" type="radio" value=1>&nbsp;Semi Urban&ensp;&ensp;<input id="pa" name="pa" type="radio" value=0>&nbsp;No Property</td>
+                </tr>
+                <tr>
+                        <td>
+                        <div class="portfolio__btn">
+                        <input class="primary-btn-1" id="submit" type="submit" value="Click to Check">&emsp;<input class="primary-btn-1" id="reset" type="reset" value="Clear">
+                        </div>
+                        </td>
+                        <!-- <td><div class="container">
+                                <a href="./submit.html">
+                                <button class="btn" data-hover="Loan Predictor">
+                                        <div>Click to Check</div>
+                                </button>
+                                </a>
+                        </div></td> -->
+                </tr>
+                </form>
+        </table>
+        </div>
+        <div class="col-lg-6">
+                <br><br><br><br>
+                <img src="static/images/Lending_1.jpg">
+        </div>
+        <div class="col-lg-12"><br><br><br><br><br></div>
+        </div>
+        </div>
+</body>
+</html>
