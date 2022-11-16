@@ -39,13 +39,7 @@ def upload():
         data = [[request.form.get('gender'),request.form.get('married'),request.form.get('dep'),request.form.get('edu'),request.form.get('se'),request.form.get('ai')
                 ,request.form.get('cai'),request.form.get('la'),request.form.get('lat'),request.form.get('ch'),request.form.get('pa')]]
   
-        # df = pd.DataFrame(data, columns=['Gender','Married','Dependents','Education',
-        #                                  'Self_Employed','ApplicantIncome','CoapplicantIncome',
-        #                                  'LoanAmount','Loan_Amount_Term','Credit_History','Property_Area'])
-
-        # gh=joblib.load('C:/Users/Megalingam/Desktop/IBM/IBM-Project-36944-1660299156/Project_Development_Phase/Sprint_3/rdf.pkl')
-        # num=gh.predict(df)
-
+       
         a=''
         lend_data=int(lend_data)
 
