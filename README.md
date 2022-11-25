@@ -64,5 +64,5 @@ Mugesh Raja (IBM Watson Studio,Python-Flask) <br />
  - [x] Assignment 4
 
 ## Technical Architecture:
-![Technical Architecture](/Users/hariharanganesh/Downloads/IBM/image1.jpg)
+![Technical Architecture](https://lh3.googleusercontent.com/mqKaxT17Ilt3FM1ak5j_rvnHBEwgg7JiFvaWPfl9rHkHmcpcsEAnj5HhcBVp9UOxkFzjYV--e_L7Z-a9HwybCFgMJ1En-xqOhV6m8QzUbGZMkOCDuSqFck44sQuUVxOVvIMg_yKT)
 
