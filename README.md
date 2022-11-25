@@ -26,41 +26,41 @@ Mugesh Raja (IBM Watson Studio,Python-Flask)
 ###Tasks
 
 **Project Design & Planning**
- - [x] #739Ideation Phase
- Literature Survey
- Problem Statement
- Empathy Map
- Brainstorm
- Top 3 Ideas
+ - [x]Ideation Phase
+ - [x]Literature Survey
+ - [x]Problem Statement
+ - [x]Empathy Map
+ - [x] Brainstorm
+ - [x]Top 3 Ideas
  
 **Project Design Phase 1**
- Proposed Solution
- Problem-Solution Fit
- Solution Architecture
+ - [x]Proposed Solution
+ - [x]Problem-Solution Fit
+ - [x]Solution Architecture
  
 **Project Design Phase 2**
- Customer Journey Maps
- Functional Requirements
- Data Flow Diagrams
- Technology Architecture
+ - [x]Customer Journey Maps
+ - [x]Functional Requirements
+ - [x]Data Flow Diagrams
+ - [x]Technology Architecture
  
 **Project Planning Phase**
- Milestone & Activity List
- Sprint Delivery Plan
+ - [x]Milestone & Activity List
+ - [x]Sprint Delivery Plan
  
 **Project Development Phase**
- Sprint 1
- Sprint 2
- Sprint 3
- Sprint 4
+ - [x]Sprint 1
+ - [x]Sprint 2
+ - [x]Sprint 3
+ - [x]Sprint 4
  
 **Final Deliverables**
- Source Code
- Project Document
+ - [x]Source Code
+ - [x]Project Document
 
 **Assignments**
- Assignment 1
- Assignment 2
- Assignment 3
- Assignment 4
+ - [x]Assignment 1
+ - [x]Assignment 2
+ - [x]Assignment 3
+ - [x]Assignment 4
 
