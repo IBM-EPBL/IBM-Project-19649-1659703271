@@ -4,7 +4,6 @@
 # IBM-Project-19649-1659703271
 # Smart Lender - Applicant Credibility Prediction for Loan Approval
 
-**Team Details:** <br />
 **Team ID:** PNT2022TMID27812 <br />
 **Batch:** B7-1A3E <br />
 **Team Leader:**  Hariharan A G <br />
@@ -63,4 +62,7 @@ Mugesh Raja (IBM Watson Studio,Python-Flask) <br />
  - [x] Assignment 2
  - [x] Assignment 3
  - [x] Assignment 4
+
+## Technical Architecture:
+![Technical Architecture](/Users/hariharanganesh/Downloads/IBM/image1.jpg)
 
