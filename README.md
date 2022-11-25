@@ -4,7 +4,7 @@
 # IBM-Project-19649-1659703271
 # Smart Lender - Applicant Credibility Prediction for Loan Approval
 
-**Team Details:**
+**Team Details:** <br />
 **Team ID:** PNT2022TMID27812
 **Batch:** B7-1A3E
 **Team Leader:**  Hariharan A G
