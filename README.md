@@ -1,7 +1,7 @@
 ### DEMO URL
 ### :movie_camera: Youtube Link : https://youtu.be/14X5JCybAgc
 
-## Technology Architecture : :desktop_computer: Machine Learning
+## Technology : :desktop_computer: Machine Learning
 
 # IBM-Project-19649-1659703271
 # Smart Lender - Applicant Credibility Prediction for Loan Approval
